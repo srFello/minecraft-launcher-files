@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "serverName": "My Offline Server",
+    "description": "Официальный лаунчер сервера 1.20.1"
+  },
+  "servers": [
+    {
+      "id": "main",
+      "name": "MyServer 1.20.1",
+      "description": "Forge сервер (offline)",
+      "host": "135.181.237.55",
+      "port": 25817,
+      "version": "1.20.1",
+      "loader": {
+        "type": "forge",
+        "build": "47.4.0"
+      },
+      "mods": "https://github.com/srFello/minecraft-launcher-files/releases/download/v1.0/mods.zip",
+      "configs": "https://github.com/srFello/minecraft-launcher-files/releases/download/v1.0/configs.zip"
+    }
+  ]
+}
